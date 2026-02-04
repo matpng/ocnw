@@ -171,13 +171,13 @@ export async function runEmbeddedAttempt(
       : [];
     restoreSkillEnv = params.skillsSnapshot
       ? applySkillEnvOverridesFromSnapshot({
-        snapshot: params.skillsSnapshot,
-        config: params.config,
-      })
+          snapshot: params.skillsSnapshot,
+          config: params.config,
+        })
       : applySkillEnvOverrides({
-        skills: skillEntries ?? [],
-        config: params.config,
-      });
+          skills: skillEntries ?? [],
+          config: params.config,
+        });
 
     const skillsPrompt = resolveSkillsPromptForRun({
       skillsSnapshot: params.skillsSnapshot,
@@ -208,7 +208,6 @@ export async function runEmbeddedAttempt(
     const toolsRaw = params.disableTools
       ? []
       : createOpenClawCodingTools({
-<<<<<<< Updated upstream
           exec: {
             ...params.execOverrides,
             elevated: params.bashElevated,
@@ -243,39 +242,6 @@ export async function runEmbeddedAttempt(
             params.requireExplicitMessageTarget ?? isSubagentSessionKey(params.sessionKey),
           disableMessageTool: params.disableMessageTool,
         });
-=======
-        exec: {
-          ...params.execOverrides,
-          elevated: params.bashElevated,
-        },
-        sandbox,
-        messageProvider: params.messageChannel ?? params.messageProvider,
-        agentAccountId: params.agentAccountId,
-        messageTo: params.messageTo,
-        messageThreadId: params.messageThreadId,
-        groupId: params.groupId,
-        groupChannel: params.groupChannel,
-        groupSpace: params.groupSpace,
-        spawnedBy: params.spawnedBy,
-        senderId: params.senderId,
-        senderName: params.senderName,
-        senderUsername: params.senderUsername,
-        senderE164: params.senderE164,
-        sessionKey: params.sessionKey ?? params.sessionId,
-        agentDir,
-        workspaceDir: effectiveWorkspace,
-        config: params.config,
-        abortSignal: runAbortController.signal,
-        modelProvider: params.model.provider,
-        modelId: params.modelId,
-        modelAuthMode: resolveModelAuthMode(params.model.provider, params.config),
-        currentChannelId: params.currentChannelId,
-        currentThreadTs: params.currentThreadTs,
-        replyToMode: params.replyToMode,
-        hasRepliedRef: params.hasRepliedRef,
-        modelHasVision,
-      });
->>>>>>> Stashed changes
     const tools = sanitizeToolsForGoogle({ tools: toolsRaw, provider: params.provider });
     logToolSchemasForGoogle({ tools, provider: params.provider });
 
@@ -283,10 +249,10 @@ export async function runEmbeddedAttempt(
     const runtimeChannel = normalizeMessageChannel(params.messageChannel ?? params.messageProvider);
     let runtimeCapabilities = runtimeChannel
       ? (resolveChannelCapabilities({
-        cfg: params.config,
-        channel: runtimeChannel,
-        accountId: params.agentAccountId,
-      }) ?? [])
+          cfg: params.config,
+          channel: runtimeChannel,
+          accountId: params.agentAccountId,
+        }) ?? [])
       : undefined;
     if (runtimeChannel === "telegram" && params.config) {
       const inlineButtonsScope = resolveTelegramInlineButtonsScope({
@@ -307,24 +273,24 @@ export async function runEmbeddedAttempt(
     const reactionGuidance =
       runtimeChannel && params.config
         ? (() => {
-          if (runtimeChannel === "telegram") {
-            const resolved = resolveTelegramReactionLevel({
-              cfg: params.config,
-              accountId: params.agentAccountId ?? undefined,
-            });
-            const level = resolved.agentReactionGuidance;
-            return level ? { level, channel: "Telegram" } : undefined;
-          }
-          if (runtimeChannel === "signal") {
-            const resolved = resolveSignalReactionLevel({
-              cfg: params.config,
-              accountId: params.agentAccountId ?? undefined,
-            });
-            const level = resolved.agentReactionGuidance;
-            return level ? { level, channel: "Signal" } : undefined;
-          }
-          return undefined;
-        })()
+            if (runtimeChannel === "telegram") {
+              const resolved = resolveTelegramReactionLevel({
+                cfg: params.config,
+                accountId: params.agentAccountId ?? undefined,
+              });
+              const level = resolved.agentReactionGuidance;
+              return level ? { level, channel: "Telegram" } : undefined;
+            }
+            if (runtimeChannel === "signal") {
+              const resolved = resolveSignalReactionLevel({
+                cfg: params.config,
+                accountId: params.agentAccountId ?? undefined,
+              });
+              const level = resolved.agentReactionGuidance;
+              return level ? { level, channel: "Signal" } : undefined;
+            }
+            return undefined;
+          })()
         : undefined;
     const { defaultAgentId, sessionAgentId } = resolveSessionAgentIds({
       sessionKey: params.sessionKey,
@@ -335,16 +301,16 @@ export async function runEmbeddedAttempt(
     // Resolve channel-specific message actions for system prompt
     const channelActions = runtimeChannel
       ? listChannelSupportedActions({
-        cfg: params.config,
-        channel: runtimeChannel,
-      })
+          cfg: params.config,
+          channel: runtimeChannel,
+        })
       : undefined;
     const messageToolHints = runtimeChannel
       ? resolveChannelMessageToolHints({
-        cfg: params.config,
-        channel: runtimeChannel,
-        accountId: params.agentAccountId,
-      })
+          cfg: params.config,
+          channel: runtimeChannel,
+          accountId: params.agentAccountId,
+        })
       : undefined;
 
     const defaultModelRef = resolveDefaultModelForAgent({
@@ -428,12 +394,8 @@ export async function runEmbeddedAttempt(
       skillsPrompt,
       tools,
     });
-<<<<<<< Updated upstream
     const systemPromptOverride = createSystemPromptOverride(appendPrompt);
     const systemPromptText = systemPromptOverride();
-=======
-    const systemPromptText = appendPrompt;
->>>>>>> Stashed changes
 
     const sessionLock = await acquireSessionWriteLock({
       sessionFile: params.sessionFile,
@@ -497,15 +459,15 @@ export async function runEmbeddedAttempt(
       let clientToolCallDetected: { name: string; params: Record<string, unknown> } | null = null;
       const clientToolDefs = params.clientTools
         ? toClientToolDefinitions(
-          params.clientTools,
-          (toolName, toolParams) => {
-            clientToolCallDetected = { name: toolName, params: toolParams };
-          },
-          {
-            agentId: sessionAgentId,
-            sessionKey: params.sessionKey,
-          },
-        )
+            params.clientTools,
+            (toolName, toolParams) => {
+              clientToolCallDetected = { name: toolName, params: toolParams };
+            },
+            {
+              agentId: sessionAgentId,
+              sessionKey: params.sessionKey,
+            },
+          )
         : [];
 
       const allCustomTools = [...customTools, ...clientToolDefs];
@@ -522,11 +484,7 @@ export async function runEmbeddedAttempt(
         sessionManager,
         settingsManager,
       }));
-<<<<<<< Updated upstream
       applySystemPromptOverrideToSession(session, systemPromptText);
-=======
-      applySystemPromptOverrideToSession(session, appendPrompt);
->>>>>>> Stashed changes
       if (!session) {
         throw new Error("Embedded agent session missing");
       }
@@ -796,7 +754,7 @@ export async function runEmbeddedAttempt(
           activeSession.agent.replaceMessages(sessionContext.messages);
           log.warn(
             `Removed orphaned user message to prevent consecutive user turns. ` +
-            `runId=${params.runId} sessionId=${params.sessionId}`,
+              `runId=${params.runId} sessionId=${params.sessionId}`,
           );
         }
 

@@ -1,0 +1,12 @@
+src/agents/pi-embedded-runner/compact.ts(408,1): error TS1185: Merge conflict marker encountered.
+src/agents/pi-embedded-runner/compact.ts(410,1): error TS1185: Merge conflict marker encountered.
+src/agents/pi-embedded-runner/compact.ts(412,1): error TS1185: Merge conflict marker encountered.
+src/agents/pi-embedded-runner/run/attempt.ts(211,1): error TS1185: Merge conflict marker encountered.
+src/agents/pi-embedded-runner/run/attempt.ts(246,1): error TS1185: Merge conflict marker encountered.
+src/agents/pi-embedded-runner/run/attempt.ts(278,1): error TS1185: Merge conflict marker encountered.
+src/agents/pi-embedded-runner/run/attempt.ts(431,1): error TS1185: Merge conflict marker encountered.
+src/agents/pi-embedded-runner/run/attempt.ts(434,1): error TS1185: Merge conflict marker encountered.
+src/agents/pi-embedded-runner/run/attempt.ts(436,1): error TS1185: Merge conflict marker encountered.
+src/agents/pi-embedded-runner/run/attempt.ts(525,1): error TS1185: Merge conflict marker encountered.
+src/agents/pi-embedded-runner/run/attempt.ts(527,1): error TS1185: Merge conflict marker encountered.
+src/agents/pi-embedded-runner/run/attempt.ts(529,1): error TS1185: Merge conflict marker encountered.
