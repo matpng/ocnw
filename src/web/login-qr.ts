@@ -176,6 +176,14 @@ export async function startWebLoginWithQr(
       message: `Failed to start WhatsApp login: ${String(err)}`,
     };
   }
+
+  // Safety: if socket closes without QR, reject promise
+  sock.ev.on("connection.update", (update) => {
+    if (update.connection === "close") {
+      rejectQr?.(new Error(`Connection closed before QR received: ${formatError(update.lastDisconnect?.error)}`));
+    }
+  });
+
   const login: ActiveLogin = {
     accountId: account.accountId,
     authDir: account.authDir,
