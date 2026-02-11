@@ -1,0 +1,16 @@
+(node:24256) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[90m|[39m
+[32mo[39m  [0mDoctor changes[0m [90m------------------------+[39m
+[90m|[39m                                         [90m|[39m
+[90m|[39m  [2mWhatsApp configured, not enabled yet.[22m  [90m|[39m
+[90m|[39m                                         [90m|[39m
+[90m+-----------------------------------------+[39m
+[90m|[39m
+[32mo[39m  [0mDoctor[0m [90m----------------------------------------------+[39m
+[90m|[39m                                                       [90m|[39m
+[90m|[39m  [2mRun "openclaw doctor --fix" to apply these changes.[22m  [90m|[39m
+[90m|[39m                                                       [90m|[39m
+[90m+-------------------------------------------------------+[39m
+2026-02-11T09:01:08.876Z Gateway auth is set to token, but no token is configured.
+Set gateway.auth.token (or OPENCLAW_GATEWAY_TOKEN), or pass --token.

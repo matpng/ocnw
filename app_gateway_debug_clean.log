@@ -1,0 +1,3 @@
+(node:6192) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-02-09T13:22:11.321Z Missing config. Run `openclaw setup` or set gateway.mode=local (or pass --allow-unconfigured).

@@ -1,0 +1,20 @@
+--- Debugging Plugin Discovery ---
+Found 31 candidates.
+Γ£à WhatsApp candidate found: {
+  idHint: 'whatsapp',
+  source: 'C:\\Users\\fc\\Documents\\GitHub\\ocnw\\extensions\\whatsapp\\index.ts',
+  rootDir: 'C:\\Users\\fc\\Documents\\GitHub\\ocnw\\extensions\\whatsapp',
+  origin: 'bundled',
+  workspaceDir: undefined,
+  packageName: '@openclaw/whatsapp',
+  packageVersion: '2026.2.2',
+  packageDescription: 'OpenClaw WhatsApp channel plugin',
+  packageDir: 'C:\\Users\\fc\\Documents\\GitHub\\ocnw\\extensions\\whatsapp',
+  packageManifest: { extensions: [ './index.ts' ] }
+}
+
+--- Debugging Plugin Loading ---
+WhatsApp Plugin Status: loaded
+WhatsApp Channel Registered: YES
+(node:3836) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)

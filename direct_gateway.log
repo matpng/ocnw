@@ -1,0 +1,37 @@
+(node:21600) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Invalid config at C:\Users\fc\.openclaw\openclaw.json:\n- web: Unrecognized key: "port"
+- channels.whatsapp: Unrecognized key: "enabled"
+[90m|[39m
+[32mo[39m  [0mConfig[0m [90m---------------------------------------------------+[39m
+[90m|[39m                                                            [90m|[39m
+[90m|[39m  [2mConfig invalid; doctor will run with best-effort config.[22m  [90m|[39m
+[90m|[39m                                                            [90m|[39m
+[90m+------------------------------------------------------------+[39m
+[90m|[39m
+[32mo[39m  [0mDoctor changes[0m [90m------------------------+[39m
+[90m|[39m                                         [90m|[39m
+[90m|[39m  [2mWhatsApp configured, not enabled yet.[22m  [90m|[39m
+[90m|[39m                                         [90m|[39m
+[90m+-----------------------------------------+[39m
+[90m|[39m
+[32mo[39m  [0mUnknown config keys[0m [90m---------+[39m
+[90m|[39m                               [90m|[39m
+[90m|[39m  [2m- web.port[22m                   [90m|[39m
+[90m|[39m  [2m- channels.whatsapp.enabled[22m  [90m|[39m
+[90m|[39m                               [90m|[39m
+[90m+-------------------------------+[39m
+[90m|[39m
+[32mo[39m  [0mDoctor[0m [90m----------------------------------------------+[39m
+[90m|[39m                                                       [90m|[39m
+[90m|[39m  [2mRun "openclaw doctor --fix" to apply these changes.[22m  [90m|[39m
+[90m|[39m  [2mRun "openclaw doctor --fix" to remove these keys.[22m    [90m|[39m
+[90m|[39m                                                       [90m|[39m
+[90m+-------------------------------------------------------+[39m
+Config invalid
+File: C:\Users\fc\.openclaw\openclaw.json
+Problem:
+  - web: Unrecognized key: "port"
+  - channels.whatsapp: Unrecognized key: "enabled"
+
+Run: openclaw doctor --fix

@@ -136,6 +136,7 @@
     "long": "^5.3.2",
     "markdown-it": "^14.1.0",
     "node-edge-tts": "^1.2.9",
+    "openclaw-sidecar": "workspace:*",
     "osc-progress": "^0.3.0",
     "pdfjs-dist": "^5.4.624",
     "playwright-core": "1.58.1",

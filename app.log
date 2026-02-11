@@ -1,0 +1,6 @@
+
+> openclaw@2026.2.3 start C:\Users\fc\Documents\GitHub\ocnw
+> node scripts/run-node.mjs
+
+(node:24308) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)

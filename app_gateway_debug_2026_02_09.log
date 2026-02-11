@@ -1,0 +1,38 @@
+(node:29660) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-02-09T13:11:49.885Z Config was last written by a newer OpenClaw (2026.1.30); current version is 0.0.0.
+2026-02-09T13:11:50.306Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root C:\Users\fc\.openclaw\canvas)
+2026-02-09T13:11:53.324Z [heartbeat] started
+2026-02-09T13:11:53.355Z [gateway] agent model: anthropic/claude-opus-4-5
+2026-02-09T13:11:53.367Z [gateway] listening on ws://127.0.0.1:18789 (PID 29660)
+2026-02-09T13:11:53.380Z [gateway] listening on ws://[::1]:18789
+2026-02-09T13:11:53.399Z [gateway] log file: \tmp\openclaw\openclaw-2026-02-09.log
+2026-02-09T13:11:53.684Z [browser/service] Browser control service ready (profiles=2)
+2026-02-09T13:11:53.764Z [whatsapp] [default] starting provider (+67570197418)
+2026-02-09T13:11:57.833Z WhatsApp session logged out. Run: openclaw channels login
+2026-02-09T13:11:57.880Z [whatsapp] [default] channel exited: {"error":{"data":{"reason":"401","location":"lla"},"isBoom":true,"isServer":false,"output":{"statusCode":401,"payload":{"statusCode":401,"error":"Unauthorized","message":"Connection Failure"},"headers":{}}},"date":"2026-02-09T13:11:57.825Z"}
+2026-02-09T13:13:23.980Z [gateway] request handler failed: TypeError: Cannot read properties of undefined (reading 'whatsapp')
+2026-02-09T13:13:24.018Z [ws] Γçä res Γ£ù channels.status 98ms errorCode=UNAVAILABLE errorMessage=TypeError: Cannot read properties of undefined (reading 'whatsapp') conn=9d738f1bΓÇªd202 id=2fd5ad4bΓÇª32b7
+2026-02-09T13:13:24.837Z Config was last written by a newer OpenClaw (2026.2.6-3); current version is 2026.2.3.
+2026-02-09T13:13:24.884Z [reload] config change detected; evaluating reload (meta.lastTouchedVersion, meta.lastTouchedAt, wizard.lastRunAt, wizard.lastRunVersion, wizard.lastRunCommand)
+2026-02-09T13:13:24.898Z [reload] config change requires gateway restart (meta.lastTouchedVersion, meta.lastTouchedAt)
+2026-02-09T13:13:24.952Z [gateway] signal SIGUSR1 received
+2026-02-09T13:13:24.977Z [gateway] received SIGUSR1; restarting
+2026-02-09T13:13:25.233Z Config was last written by a newer OpenClaw (2026.2.6-3); current version is 2026.2.3.
+2026-02-09T13:13:25.260Z [gmail-watcher] gmail watcher stopped
+2026-02-09T13:13:31.358Z Config was last written by a newer OpenClaw (2026.2.6-3); current version is 2026.2.3.
+2026-02-09T13:13:31.383Z Config was last written by a newer OpenClaw (2026.2.6-3); current version is 2026.2.3.
+2026-02-09T13:13:31.401Z Config was last written by a newer OpenClaw (2026.2.6-3); current version is 2026.2.3.
+2026-02-09T13:13:31.448Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root C:\Users\fc\.openclaw\canvas)
+2026-02-09T13:13:31.559Z [heartbeat] started
+2026-02-09T13:13:31.573Z [gateway] agent model: anthropic/claude-opus-4-5
+2026-02-09T13:13:31.582Z [gateway] listening on ws://127.0.0.1:18789 (PID 29660)
+2026-02-09T13:13:31.595Z [gateway] listening on ws://[::1]:18789
+2026-02-09T13:13:31.612Z [gateway] log file: \tmp\openclaw\openclaw-2026-02-09.log
+2026-02-09T13:13:31.745Z Config was last written by a newer OpenClaw (2026.2.6-3); current version is 2026.2.3.
+2026-02-09T13:13:31.769Z [browser/service] Browser control service ready (profiles=2)
+2026-02-09T13:13:31.891Z [whatsapp] [default] starting provider (+67570197418)
+2026-02-09T13:13:31.917Z Config was last written by a newer OpenClaw (2026.2.6-3); current version is 2026.2.3.
+2026-02-09T13:13:36.913Z WhatsApp session logged out. Run: openclaw channels login
+2026-02-09T13:13:36.929Z [whatsapp] [default] channel exited: {"error":{"data":{"reason":"401","location":"vll"},"isBoom":true,"isServer":false,"output":{"statusCode":401,"payload":{"statusCode":401,"error":"Unauthorized","message":"Connection Failure"},"headers":{}}},"date":"2026-02-09T13:13:36.907Z"}
+2026-02-09T13:14:31.582Z Config was last written by a newer OpenClaw (2026.2.6-3); current version is 2026.2.3.

@@ -1,0 +1,33 @@
+(node:29152) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-02-04T21:51:43.489Z Config was last written by a newer OpenClaw (2026.1.30); current version is 0.0.0.
+[90m2026-02-04T21:51:43.788Z[39m [35m[canvas][39m [36mhost mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root C:\Users\fc\.openclaw\canvas)[39m
+[90m2026-02-04T21:51:44.139Z[39m [36m[heartbeat][39m [36mstarted[39m
+[90m2026-02-04T21:51:44.172Z[39m [36m[gateway][39m [36magent model: anthropic/claude-opus-4-5[39m
+[90m2026-02-04T21:51:44.180Z[39m [36m[gateway][39m [36mlistening on ws://127.0.0.1:18789 (PID 29152)[39m
+[90m2026-02-04T21:51:44.187Z[39m [36m[gateway][39m [36mlistening on ws://[::1]:18789[39m
+[90m2026-02-04T21:51:44.197Z[39m [36m[gateway][39m [36mlog file: \tmp\openclaw\openclaw-2026-02-05.log[39m
+[90m2026-02-04T21:51:44.385Z[39m [35m[browser/service][39m [36mBrowser control service ready (profiles=2)[39m
+[90m2026-02-04T21:51:45.345Z[39m [36m[ws][39m [36mwebchat connected conn=751b86e5-f660-48cb-9abc-1d0dcf4e0f75 remote=127.0.0.1 client=openclaw-control-ui webchat vdev[39m
+[90m2026-02-04T21:51:45.458Z[39m [36m[ws][39m [36m⇄ res ✓ config.schema 59ms conn=751b86e5…0f75 id=378a2317…fa75[39m
+[90m2026-02-04T21:51:45.526Z[39m [36m[ws][39m [36m⇄ res ✓ config.get 64ms conn=751b86e5…0f75 id=70616df9…fed2[39m
+[90m2026-02-04T21:51:45.530Z[39m [36m[ws][39m [36m⇄ res ✓ channels.status 147ms conn=751b86e5…0f75 id=715fc2ed…96b0[39m
+[90m2026-02-04T21:51:45.545Z[39m [36m[ws][39m [36m⇄ res ✓ node.list 163ms conn=751b86e5…0f75 id=9008e4d3…44c6[39m
+[90m2026-02-04T21:51:45.553Z[39m [36m[ws][39m [36m⇄ res ✓ device.pair.list 168ms conn=751b86e5…0f75 id=b37cfaa0…aaa5[39m
+[90m2026-02-04T21:51:47.312Z[39m [36m[ws][39m [36mwebchat connected conn=0dacc5f6-7489-4fec-98ab-6b1d623a2bd4 remote=127.0.0.1 client=openclaw-control-ui webchat vdev[39m
+[90m2026-02-04T21:53:50.199Z[39m [36m[ws][39m [36mwebchat disconnected code=1001 reason=n/a conn=751b86e5-f660-48cb-9abc-1d0dcf4e0f75[39m
+[90m2026-02-04T21:53:50.946Z[39m [36m[ws][39m [36mwebchat connected conn=42d8e6c2-adb4-472b-998b-38f1faea57c6 remote=127.0.0.1 client=openclaw-control-ui webchat vdev[39m
+[90m2026-02-04T21:53:51.090Z[39m [36m[ws][39m [36m⇄ res ✓ config.schema 82ms conn=42d8e6c2…57c6 id=16ec3d68…0426[39m
+[90m2026-02-04T21:53:51.224Z[39m [36m[ws][39m [36m⇄ res ✓ config.get 126ms conn=42d8e6c2…57c6 id=6a736b5f…eb32[39m
+[90m2026-02-04T21:53:51.243Z[39m [36m[ws][39m [36m⇄ res ✓ channels.status 260ms conn=42d8e6c2…57c6 id=12eafe89…3967[39m
+[90m2026-02-04T21:53:51.259Z[39m [36m[ws][39m [36m⇄ res ✓ node.list 277ms conn=42d8e6c2…57c6 id=3ade2252…bb06[39m
+[90m2026-02-04T21:53:51.270Z[39m [36m[ws][39m [36m⇄ res ✓ device.pair.list 286ms conn=42d8e6c2…57c6 id=36ec4e07…3ccd[39m
+2026-02-04T21:53:59.354Z WhatsApp QR received.
+[90m2026-02-04T21:53:59.515Z[39m [36m[ws][39m [36m⇄ res ✓ web.login.start 3652ms conn=42d8e6c2…57c6 id=18ac0d42…26f4[39m
+[90m2026-02-04T21:53:59.684Z[39m [36m[ws][39m [36m⇄ res ✓ channels.status 150ms conn=42d8e6c2…57c6 id=e9caabb9…2fd7[39m
+[90m2026-02-04T22:04:58.628Z[39m [36m[ws][39m [36m⇄ res ✓ web.login.start 6298ms conn=42d8e6c2…57c6 id=8c400549…640c[39m
+2026-02-04T22:04:58.498Z WhatsApp session logged out. Run: openclaw channels login
+[90m2026-02-04T22:04:58.797Z[39m [36m[ws][39m [36m⇄ res ✓ channels.status 151ms conn=42d8e6c2…57c6 id=7e3742fa…3f35[39m
+[90m2026-02-04T22:05:03.642Z[39m [36m[ws][39m [36m⇄ res ✓ web.login.start 170ms conn=42d8e6c2…57c6 id=1bf6595f…32e5[39m
+[90m2026-02-04T22:05:38.583Z[39m [36m[ws][39m [36mwebchat disconnected code=1006 reason=n/a conn=0dacc5f6-7489-4fec-98ab-6b1d623a2bd4[39m
+[90m2026-02-04T22:11:55.933Z[39m [36m[ws][39m [36mwebchat disconnected code=1006 reason=n/a conn=42d8e6c2-adb4-472b-998b-38f1faea57c6[39m

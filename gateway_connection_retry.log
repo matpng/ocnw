@@ -1,0 +1,50 @@
+(node:10148) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-02-05T01:57:55.343Z Config was last written by a newer OpenClaw (2026.2.3); current version is 0.0.0.
+[90m2026-02-05T01:57:55.404Z[39m [35m[canvas][39m [36mhost mounted at http://127.0.0.1:19001/__openclaw__/canvas/ (root C:\Users\fc\.openclaw\canvas)[39m
+[90m2026-02-05T01:57:55.696Z[39m [36m[heartbeat][39m [36mstarted[39m
+[90m2026-02-05T01:57:55.705Z[39m [36m[gateway][39m [36magent model: anthropic/claude-opus-4-5[39m
+[90m2026-02-05T01:57:55.709Z[39m [36m[gateway][39m [36mlistening on ws://127.0.0.1:19001 (PID 10148)[39m
+[90m2026-02-05T01:57:55.713Z[39m [36m[gateway][39m [36mlistening on ws://[::1]:19001[39m
+[90m2026-02-05T01:57:55.717Z[39m [36m[gateway][39m [36mlog file: \tmp\openclaw\openclaw-2026-02-05.log[39m
+[90m2026-02-05T01:57:55.784Z[39m [35m[browser/service][39m [36mBrowser control service ready (profiles=2)[39m
+[90m2026-02-05T01:57:55.790Z[39m [31m[gateway/channels][39m [36mskipping channel start (OPENCLAW_SKIP_CHANNELS=1 or OPENCLAW_SKIP_PROVIDERS=1)[39m
+[90m2026-02-05T01:57:56.007Z[39m [36m[ws][39m [36mwebchat connected conn=ee1c9cba-aa1e-42dd-8fdf-32f4a32af376 remote=127.0.0.1 client=openclaw-control-ui webchat vdev[39m
+[90m2026-02-05T01:57:56.022Z[39m [36m[ws][39m [36mwebchat connected conn=93c1bb67-5324-4774-bf46-64fe7650ab8a remote=127.0.0.1 client=openclaw-control-ui webchat vdev[39m
+[90m2026-02-05T01:57:56.163Z[39m [36m[ws][39m [36mΓçä res Γ£ô config.schema 106ms conn=93c1bb67ΓÇªab8a id=8f6e9b72ΓÇª12ae[39m
+[90m2026-02-05T01:57:56.278Z[39m [36m[ws][39m [36mΓçä res Γ£ô node.list 238ms conn=93c1bb67ΓÇªab8a id=9a3d3536ΓÇª2a9f[39m
+[90m2026-02-05T01:57:56.285Z[39m [36m[ws][39m [36mΓçä res Γ£ô device.pair.list 241ms conn=93c1bb67ΓÇªab8a id=d6098ed6ΓÇª3186[39m
+[90m2026-02-05T01:57:56.291Z[39m [36m[ws][39m [36mΓçä res Γ£ô node.list 72ms conn=ee1c9cbaΓÇªf376 id=022c034fΓÇª5d57[39m
+[90m2026-02-05T01:57:56.297Z[39m [36m[ws][39m [36mΓçä res Γ£ô device.pair.list 77ms conn=ee1c9cbaΓÇªf376 id=b12c6415ΓÇª76cd[39m
+[90m2026-02-05T01:57:56.306Z[39m [36m[ws][39m [36mΓçä res Γ£ô channels.status 262ms conn=93c1bb67ΓÇªab8a id=eadda1abΓÇª85d4[39m
+[90m2026-02-05T01:57:56.311Z[39m [36m[ws][39m [36mΓçä res Γ£ô channels.status 92ms conn=ee1c9cbaΓÇªf376 id=6bcb200fΓÇªa71f[39m
+[90m2026-02-05T01:57:56.332Z[39m [36m[ws][39m [36mwebchat connected conn=26fbe8f1-8a32-46ec-a480-4746a41a53cf remote=127.0.0.1 client=openclaw-control-ui webchat vdev[39m
+[90m2026-02-05T01:57:56.402Z[39m [36m[ws][39m [36mΓçä res Γ£ô node.list 55ms conn=26fbe8f1ΓÇª53cf id=7976bb89ΓÇª607a[39m
+[90m2026-02-05T01:57:56.408Z[39m [36m[ws][39m [36mΓçä res Γ£ô device.pair.list 59ms conn=26fbe8f1ΓÇª53cf id=86df6e4bΓÇªb593[39m
+[90m2026-02-05T01:57:56.418Z[39m [36m[ws][39m [36mΓçä res Γ£ô channels.status 69ms conn=26fbe8f1ΓÇª53cf id=fa939c78ΓÇªcb82[39m
+[90m2026-02-05T01:57:58.126Z[39m [36m[ws][39m [36mwebchat connected conn=9c4f6635-8563-4ba3-839c-473e956cff26 remote=127.0.0.1 client=openclaw-control-ui webchat vdev[39m
+[90m2026-02-05T01:57:58.206Z[39m [36m[ws][39m [36mΓçä res Γ£ô node.list 60ms conn=9c4f6635ΓÇªff26 id=55471653ΓÇª5cf6[39m
+[90m2026-02-05T01:57:58.212Z[39m [36m[ws][39m [36mΓçä res Γ£ô device.pair.list 67ms conn=9c4f6635ΓÇªff26 id=498989fdΓÇª0089[39m
+[90m2026-02-05T01:57:58.222Z[39m [36m[ws][39m [36mΓçä res Γ£ô channels.status 76ms conn=9c4f6635ΓÇªff26 id=be185623ΓÇªd199[39m
+[90m2026-02-05T01:57:58.271Z[39m [36m[ws][39m [36mwebchat connected conn=dbb215e1-e125-4c2f-8e02-9b9b256fa2ec remote=127.0.0.1 client=openclaw-control-ui webchat vdev[39m
+[90m2026-02-05T01:57:58.412Z[39m [36m[ws][39m [36mΓçä res Γ£ô config.schema 53ms conn=dbb215e1ΓÇªa2ec id=cf1ff76cΓÇª4eeb[39m
+[90m2026-02-05T01:57:58.423Z[39m [36m[ws][39m [36mΓçä res Γ£ô node.list 69ms conn=dbb215e1ΓÇªa2ec id=92b0a5c4ΓÇªa22a[39m
+[90m2026-02-05T01:57:58.428Z[39m [36m[ws][39m [36mΓçä res Γ£ô device.pair.list 75ms conn=dbb215e1ΓÇªa2ec id=6586e6e0ΓÇªae83[39m
+[90m2026-02-05T01:57:58.442Z[39m [36m[ws][39m [36mΓçä res Γ£ô channels.status 88ms conn=dbb215e1ΓÇªa2ec id=4325baeaΓÇª0e57[39m
+[90m2026-02-05T01:58:00.210Z[39m [36m[ws][39m [36mwebchat connected conn=b7026bf4-324b-44a2-922c-4438091187b3 remote=127.0.0.1 client=openclaw-control-ui webchat vdev[39m
+[90m2026-02-05T01:58:01.232Z[39m [36m[ws][39m [36mΓçä res Γ£ô web.login.start 64ms conn=9c4f6635ΓÇªff26 id=51d8d486ΓÇª43d4[39m
+[90m2026-02-05T01:58:02.239Z[39m [36m[ws][39m [36mwebchat connected conn=153cb38f-ba8f-4c79-b6dd-2441fd3d5078 remote=127.0.0.1 client=openclaw-control-ui webchat vdev[39m
+[90m2026-02-05T01:58:02.306Z[39m [36m[ws][39m [36mΓçä res Γ£ô channels.status 50ms conn=153cb38fΓÇª5078 id=bf9fd248ΓÇªa7e1[39m
+[90m2026-02-05T02:03:57.517Z[39m [36m[ws][39m [36mwebchat disconnected code=1001 reason=n/a conn=9c4f6635-8563-4ba3-839c-473e956cff26[39m
+[90m2026-02-05T02:03:58.224Z[39m [36m[ws][39m [36mwebchat connected conn=513ee597-903b-46c4-a38d-e4274f41c4c2 remote=127.0.0.1 client=openclaw-control-ui webchat vdev[39m
+[90m2026-02-05T02:03:58.574Z[39m [36m[ws][39m [36mΓçä res Γ£ô config.schema 232ms conn=513ee597ΓÇªc4c2 id=942cc53cΓÇª0a7f[39m
+[90m2026-02-05T02:03:58.692Z[39m [36m[ws][39m [36mΓçä res Γ£ô config.get 79ms conn=513ee597ΓÇªc4c2 id=154dd807ΓÇª8977[39m
+[90m2026-02-05T02:03:58.701Z[39m [36m[ws][39m [36mΓçä res Γ£ô node.list 444ms conn=513ee597ΓÇªc4c2 id=f4b94d93ΓÇª6fac[39m
+[90m2026-02-05T02:03:58.710Z[39m [36m[ws][39m [36mΓçä res Γ£ô device.pair.list 452ms conn=513ee597ΓÇªc4c2 id=a838658fΓÇªce39[39m
+[90m2026-02-05T02:03:58.725Z[39m [36m[ws][39m [36mΓçä res Γ£ô channels.status 467ms conn=513ee597ΓÇªc4c2 id=b12255a3ΓÇªf32b[39m
+[90m2026-02-05T02:03:59.619Z[39m [36m[ws][39m [36mwebchat connected conn=7ae833bc-d064-465d-8146-0dc4585a5572 remote=127.0.0.1 client=openclaw-control-ui webchat vdev[39m
+[90m2026-02-05T02:03:59.709Z[39m [36m[ws][39m [36mΓçä res Γ£ô node.list 55ms conn=7ae833bcΓÇª5572 id=c3a5a1b7ΓÇªa7fb[39m
+[90m2026-02-05T02:03:59.714Z[39m [36m[ws][39m [36mΓçä res Γ£ô device.pair.list 63ms conn=7ae833bcΓÇª5572 id=17d235dfΓÇªe547[39m
+[90m2026-02-05T02:03:59.727Z[39m [36m[ws][39m [36mΓçä res Γ£ô channels.status 73ms conn=7ae833bcΓÇª5572 id=e2394f90ΓÇªef72[39m
+[90m2026-02-05T02:04:07.959Z[39m [36m[ws][39m [36mwebchat disconnected code=1001 reason=n/a conn=7ae833bc-d064-465d-8146-0dc4585a5572[39m
+[90m2026-02-05T02:09:14.915Z[39m [36m[ws][39m [36mwebchat disconnected code=1001 reason=n/a conn=b7026bf4-324b-44a2-922c-4438091187b3[39m

@@ -1,0 +1,8 @@
+--- Direct Jiti Load Test ---
+Target: C:\Users\fc\Documents\GitHub\ocnw\extensions\whatsapp\index.ts
+Attempting load...
+Γ£à Load success!
+Exports: [ 'default' ]
+(node:7764) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config was last written by a newer OpenClaw (2026.1.30); current version is 0.0.0.

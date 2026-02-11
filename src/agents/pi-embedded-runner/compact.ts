@@ -65,7 +65,6 @@ import { log } from "./logger.js";
 import { buildModelAliasLines, resolveModel } from "./model.js";
 import { buildEmbeddedSandboxInfo } from "./sandbox-info.js";
 import { prewarmSessionFile, trackSessionManagerAccess } from "./session-manager-cache.js";
-import { createSystemPromptOverride } from "./system-prompt.js";
 import {
   applySystemPromptOverrideToSession,
   buildEmbeddedSystemPrompt,
@@ -406,6 +405,7 @@ export async function compactEmbeddedPiSessionDirect(
         sessionManager,
         settingsManager,
       });
+      const systemPromptOverride = createSystemPromptOverride(appendPrompt);
       applySystemPromptOverrideToSession(session, systemPromptOverride());
 
       try {

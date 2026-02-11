@@ -1,0 +1,88 @@
+error TS6059: File 'C:/Users/fc/Documents/GitHub/ocnw/ui/src/main.ts' is not under 'rootDir' 'C:/Users/fc/Documents/GitHub/ocnw/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by include pattern 'ui/**/*' in 'tsconfig.json'
+  File is ECMAScript module because 'C:/Users/fc/Documents/GitHub/ocnw/ui/package.json' has field "type" with value "module"
+error TS6059: File 'C:/Users/fc/Documents/GitHub/ocnw/ui/src/ui/app-scroll.test.ts' is not under 'rootDir' 'C:/Users/fc/Documents/GitHub/ocnw/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by include pattern 'ui/**/*' in 'tsconfig.json'
+  File is ECMAScript module because 'C:/Users/fc/Documents/GitHub/ocnw/ui/package.json' has field "type" with value "module"
+error TS6059: File 'C:/Users/fc/Documents/GitHub/ocnw/ui/src/ui/app-settings.test.ts' is not under 'rootDir' 'C:/Users/fc/Documents/GitHub/ocnw/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by include pattern 'ui/**/*' in 'tsconfig.json'
+  File is ECMAScript module because 'C:/Users/fc/Documents/GitHub/ocnw/ui/package.json' has field "type" with value "module"
+error TS6059: File 'C:/Users/fc/Documents/GitHub/ocnw/ui/src/ui/chat-markdown.browser.test.ts' is not under 'rootDir' 'C:/Users/fc/Documents/GitHub/ocnw/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by include pattern 'ui/**/*' in 'tsconfig.json'
+  File is ECMAScript module because 'C:/Users/fc/Documents/GitHub/ocnw/ui/package.json' has field "type" with value "module"
+error TS6059: File 'C:/Users/fc/Documents/GitHub/ocnw/ui/src/ui/chat/message-extract.test.ts' is not under 'rootDir' 'C:/Users/fc/Documents/GitHub/ocnw/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by include pattern 'ui/**/*' in 'tsconfig.json'
+  File is ECMAScript module because 'C:/Users/fc/Documents/GitHub/ocnw/ui/package.json' has field "type" with value "module"
+error TS6059: File 'C:/Users/fc/Documents/GitHub/ocnw/ui/src/ui/chat/message-normalizer.test.ts' is not under 'rootDir' 'C:/Users/fc/Documents/GitHub/ocnw/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by include pattern 'ui/**/*' in 'tsconfig.json'
+  File is ECMAScript module because 'C:/Users/fc/Documents/GitHub/ocnw/ui/package.json' has field "type" with value "module"
+error TS6059: File 'C:/Users/fc/Documents/GitHub/ocnw/ui/src/ui/chat/tool-helpers.test.ts' is not under 'rootDir' 'C:/Users/fc/Documents/GitHub/ocnw/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by include pattern 'ui/**/*' in 'tsconfig.json'
+  File is ECMAScript module because 'C:/Users/fc/Documents/GitHub/ocnw/ui/package.json' has field "type" with value "module"
+error TS6059: File 'C:/Users/fc/Documents/GitHub/ocnw/ui/src/ui/config-form.browser.test.ts' is not under 'rootDir' 'C:/Users/fc/Documents/GitHub/ocnw/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by include pattern 'ui/**/*' in 'tsconfig.json'
+  File is ECMAScript module because 'C:/Users/fc/Documents/GitHub/ocnw/ui/package.json' has field "type" with value "module"
+error TS6059: File 'C:/Users/fc/Documents/GitHub/ocnw/ui/src/ui/controllers/chat.test.ts' is not under 'rootDir' 'C:/Users/fc/Documents/GitHub/ocnw/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by include pattern 'ui/**/*' in 'tsconfig.json'
+  File is ECMAScript module because 'C:/Users/fc/Documents/GitHub/ocnw/ui/package.json' has field "type" with value "module"
+error TS6059: File 'C:/Users/fc/Documents/GitHub/ocnw/ui/src/ui/controllers/config.test.ts' is not under 'rootDir' 'C:/Users/fc/Documents/GitHub/ocnw/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by include pattern 'ui/**/*' in 'tsconfig.json'
+  File is ECMAScript module because 'C:/Users/fc/Documents/GitHub/ocnw/ui/package.json' has field "type" with value "module"
+error TS6059: File 'C:/Users/fc/Documents/GitHub/ocnw/ui/src/ui/data/moonshot-kimi-k2.ts' is not under 'rootDir' 'C:/Users/fc/Documents/GitHub/ocnw/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by include pattern 'ui/**/*' in 'tsconfig.json'
+  File is ECMAScript module because 'C:/Users/fc/Documents/GitHub/ocnw/ui/package.json' has field "type" with value "module"
+error TS6059: File 'C:/Users/fc/Documents/GitHub/ocnw/ui/src/ui/focus-mode.browser.test.ts' is not under 'rootDir' 'C:/Users/fc/Documents/GitHub/ocnw/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by include pattern 'ui/**/*' in 'tsconfig.json'
+  File is ECMAScript module because 'C:/Users/fc/Documents/GitHub/ocnw/ui/package.json' has field "type" with value "module"
+error TS6059: File 'C:/Users/fc/Documents/GitHub/ocnw/ui/src/ui/format.test.ts' is not under 'rootDir' 'C:/Users/fc/Documents/GitHub/ocnw/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by include pattern 'ui/**/*' in 'tsconfig.json'
+  File is ECMAScript module because 'C:/Users/fc/Documents/GitHub/ocnw/ui/package.json' has field "type" with value "module"
+error TS6059: File 'C:/Users/fc/Documents/GitHub/ocnw/ui/src/ui/markdown.test.ts' is not under 'rootDir' 'C:/Users/fc/Documents/GitHub/ocnw/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by include pattern 'ui/**/*' in 'tsconfig.json'
+  File is ECMAScript module because 'C:/Users/fc/Documents/GitHub/ocnw/ui/package.json' has field "type" with value "module"
+error TS6059: File 'C:/Users/fc/Documents/GitHub/ocnw/ui/src/ui/navigation.browser.test.ts' is not under 'rootDir' 'C:/Users/fc/Documents/GitHub/ocnw/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by include pattern 'ui/**/*' in 'tsconfig.json'
+  File is ECMAScript module because 'C:/Users/fc/Documents/GitHub/ocnw/ui/package.json' has field "type" with value "module"
+error TS6059: File 'C:/Users/fc/Documents/GitHub/ocnw/ui/src/ui/navigation.test.ts' is not under 'rootDir' 'C:/Users/fc/Documents/GitHub/ocnw/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by include pattern 'ui/**/*' in 'tsconfig.json'
+  File is ECMAScript module because 'C:/Users/fc/Documents/GitHub/ocnw/ui/package.json' has field "type" with value "module"
+error TS6059: File 'C:/Users/fc/Documents/GitHub/ocnw/ui/src/ui/uuid.test.ts' is not under 'rootDir' 'C:/Users/fc/Documents/GitHub/ocnw/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by include pattern 'ui/**/*' in 'tsconfig.json'
+  File is ECMAScript module because 'C:/Users/fc/Documents/GitHub/ocnw/ui/package.json' has field "type" with value "module"
+error TS6059: File 'C:/Users/fc/Documents/GitHub/ocnw/ui/src/ui/views/chat.test.ts' is not under 'rootDir' 'C:/Users/fc/Documents/GitHub/ocnw/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by include pattern 'ui/**/*' in 'tsconfig.json'
+  File is ECMAScript module because 'C:/Users/fc/Documents/GitHub/ocnw/ui/package.json' has field "type" with value "module"
+error TS6059: File 'C:/Users/fc/Documents/GitHub/ocnw/ui/src/ui/views/config.browser.test.ts' is not under 'rootDir' 'C:/Users/fc/Documents/GitHub/ocnw/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by include pattern 'ui/**/*' in 'tsconfig.json'
+  File is ECMAScript module because 'C:/Users/fc/Documents/GitHub/ocnw/ui/package.json' has field "type" with value "module"
+error TS6059: File 'C:/Users/fc/Documents/GitHub/ocnw/ui/src/ui/views/cron.test.ts' is not under 'rootDir' 'C:/Users/fc/Documents/GitHub/ocnw/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by include pattern 'ui/**/*' in 'tsconfig.json'
+  File is ECMAScript module because 'C:/Users/fc/Documents/GitHub/ocnw/ui/package.json' has field "type" with value "module"
+error TS6059: File 'C:/Users/fc/Documents/GitHub/ocnw/ui/vite.config.ts' is not under 'rootDir' 'C:/Users/fc/Documents/GitHub/ocnw/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by include pattern 'ui/**/*' in 'tsconfig.json'
+  File is ECMAScript module because 'C:/Users/fc/Documents/GitHub/ocnw/ui/package.json' has field "type" with value "module"
+error TS6059: File 'C:/Users/fc/Documents/GitHub/ocnw/ui/vitest.config.ts' is not under 'rootDir' 'C:/Users/fc/Documents/GitHub/ocnw/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by include pattern 'ui/**/*' in 'tsconfig.json'
+  File is ECMAScript module because 'C:/Users/fc/Documents/GitHub/ocnw/ui/package.json' has field "type" with value "module"

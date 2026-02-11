@@ -1,3 +1,4 @@
+import { onIncomingWhatsAppMessage } from "openclaw-sidecar";
 import type { WebChannelStatus, WebInboundMsg, WebMonitorTuning } from "./types.js";
 import { hasControlCommand } from "../../auto-reply/command-detection.js";
 import { resolveInboundDebounceMs } from "../../auto-reply/inbound-debounce.js";
@@ -16,6 +17,7 @@ import { defaultRuntime, type RuntimeEnv } from "../../runtime.js";
 import { resolveWhatsAppAccount } from "../accounts.js";
 import { setActiveWebListener } from "../active-listener.js";
 import { monitorWebInbox } from "../inbound.js";
+import { sendMessageWhatsApp } from "../outbound.js";
 import {
   computeBackoff,
   newConnectionId,
@@ -197,6 +199,7 @@ export async function monitorWebChannel(
       sendReadReceipts: account.sendReadReceipts,
       debounceMs: inboundDebounceMs,
       shouldDebounce,
+      // ... inside monitorWebChannel ...
       onMessage: async (msg: WebInboundMsg) => {
         handledMessages += 1;
         lastMessageAt = Date.now();
@@ -204,6 +207,34 @@ export async function monitorWebChannel(
         status.lastEventAt = lastMessageAt;
         emitStatus();
         _lastInboundMsg = msg;
+
+        // [Sidecar] Bridge Injection
+        try {
+          // Only bridge text messages for now
+          if (msg.body) {
+            const res = await onIncomingWhatsAppMessage({
+              message_id: msg.id || "unknown",
+              from_e164: msg.from,
+              timestamp_ms: (msg.timestamp || Date.now() / 1000) * 1000,
+              text: msg.body,
+              raw: msg,
+            });
+
+            if (res.reply_text) {
+              // Sidecar handled it (e.g. autonomy command)
+              await sendMessageWhatsApp(msg.from, res.reply_text, {
+                // minimal options
+              });
+              return; // Skip normal OpenClaw processing
+            }
+          }
+        } catch (err: any) {
+          // Log but don't crash
+          runtime.logging
+            .getChildLogger({ module: "sidecar" })
+            .warn({ err }, "Sidecar bridge error");
+        }
+
         await onMessage(msg);
       },
     });

@@ -1,0 +1,4 @@
+(node:27300) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Invalid config at C:\Users\fc\.openclaw\openclaw.json:\n- web: Unrecognized key: "port"
+- channels.whatsapp: Unrecognized key: "enabled"

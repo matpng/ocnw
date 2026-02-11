@@ -1,0 +1,41 @@
+(node:19896) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[Loader] Plugin bluebubbles disabled: bundled (disabled by default)
+[Loader] Plugin copilot-proxy disabled: bundled (disabled by default)
+[Loader] Plugin diagnostics-otel disabled: bundled (disabled by default)
+[Loader] Plugin discord disabled: bundled (disabled by default)
+[Loader] Plugin feishu disabled: bundled (disabled by default)
+[Loader] Plugin google-antigravity-auth disabled: bundled (disabled by default)
+[Loader] Plugin google-gemini-cli-auth disabled: bundled (disabled by default)
+[Loader] Plugin googlechat disabled: bundled (disabled by default)
+[Loader] Plugin imessage disabled: bundled (disabled by default)
+[Loader] Plugin line disabled: bundled (disabled by default)
+[Loader] Plugin llm-task disabled: bundled (disabled by default)
+[Loader] Plugin lobster disabled: bundled (disabled by default)
+[Loader] Plugin matrix disabled: bundled (disabled by default)
+[Loader] Plugin mattermost disabled: bundled (disabled by default)
+[Loader] Plugin memory-core registered successfully (Status: loaded)
+[Loader] Plugin memory-lancedb disabled: bundled (disabled by default)
+[Loader] Plugin minimax-portal-auth disabled: bundled (disabled by default)
+[Loader] Plugin msteams disabled: bundled (disabled by default)
+[Loader] Plugin nextcloud-talk disabled: bundled (disabled by default)
+[Loader] Plugin nostr disabled: bundled (disabled by default)
+[Loader] Plugin open-prose disabled: bundled (disabled by default)
+[Loader] Plugin qwen-portal-auth disabled: bundled (disabled by default)
+[Loader] Plugin signal disabled: bundled (disabled by default)
+[Loader] Plugin slack disabled: bundled (disabled by default)
+[Loader] Plugin telegram disabled: bundled (disabled by default)
+[Loader] Plugin tlon disabled: bundled (disabled by default)
+[Loader] Plugin twitch disabled: bundled (disabled by default)
+[Loader] Plugin voice-call disabled: bundled (disabled by default)
+[WhatsApp Plugin] Registering...
+[WhatsApp Plugin] Registered channel.
+[Loader] Plugin whatsapp registered successfully (Status: loaded)
+[Loader] Plugin zalo disabled: bundled (disabled by default)
+[Loader] Plugin zalouser disabled: bundled (disabled by default)
+2026-02-05T00:55:54.276Z Config was last written by a newer OpenClaw (2026.2.3); current version is 0.0.0.
+2026-02-05T00:55:59.261Z Gateway failed to start: gateway already running (pid 27004); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw --profile dev gateway stop
+2026-02-05T00:55:59.548Z Port 19001 is already in use.
+2026-02-05T00:55:59.549Z - pid 27004: "C:\Program Files\nodejs\node.exe" C:\Users\fc\Documents\GitHub\ocnw\openclaw.mjs --dev gateway (127.0.0.1:19001)
+2026-02-05T00:55:59.553Z - Gateway already running locally. Stop it (openclaw --profile dev gateway stop) or use a different port.
